@@ -50,8 +50,8 @@
             </div>
 
             <div id="imgVaga">
-                <img src="./src/imgs/setup1.svg" alt="" class="setup" id="setupBrown">
-                <!-- <img src="./src/imgs/setup2.jpg" alt="" class="setup" id="setupWhite"> -->
+                <img src="./src/imgs/setup1.svg" alt="" class="setup" id="setupBrown" onmouseenter="mostrarSetupDark()">
+                <img src="./src/imgs/setup3.jpg" alt="" class="setup" id="setupWhite" style="display: none;" onmouseout="mostrarSetupBrown()">
             </div>
         </div>
 
@@ -59,7 +59,11 @@
 
         <div id="secaoVaga">
             <div id="imgVaga">
-                <img src="./src/imgs/setup2.jpg" alt="" class="setup" id="setupWhite">
+                <img src="./src/imgs/setup2.jpg" alt="" 
+                id="setup2" class="setup" onmouseenter="mostrarSetup4()">
+
+                <img src="./src/imgs/setup4.jpg" alt=""
+                id="setup4" class="setup" style="display: none;" onmouseout="mostrarSetup2()">
             </div>
 
             <div id="textVaga">
@@ -104,5 +108,6 @@
             </form>
         </div>
     </main>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>

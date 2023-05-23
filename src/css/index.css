@@ -79,14 +79,15 @@ header p{
     /* align-items: center; */
     width: 600px;
 }
-#imgVaga .setup{
+#secaoVaga #imgVaga .setup{
     width: 686px;
     height: 575px;
     margin: 50px 25px 50px 100px;
-    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 1.0));
+    filter: drop-shadow(6px 6px 8px rgba(0, 0, 0, 1.0));
     align-items: center;
     /* border: 4px solid #0e0e0e; */
     padding-top: 40px;
+    border-radius: 20px;
 }
 #formulario{
     text-align: center;
